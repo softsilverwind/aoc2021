@@ -3,7 +3,7 @@ use std::{
     collections::HashMap
 };
 
-pub fn solve(simple: bool)
+fn solve(simple: bool)
 {
     let mut board: HashMap<(i32, i32), i32> = HashMap::new();
 

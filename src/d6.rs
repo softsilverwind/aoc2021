@@ -1,6 +1,6 @@
 use std::io::{self, BufRead, BufReader};
 
-pub fn solve(simple: bool)
+fn solve(simple: bool)
 {
     let mut lanternfish = [0; 7];
     let mut buffer = [0; 2];
