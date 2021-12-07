@@ -3,6 +3,7 @@ mod d2;
 mod d3;
 mod d4;
 mod d5;
+mod d6;
 
 fn main()
 {
@@ -18,6 +19,8 @@ fn main()
         "4b" => d4::complex(),
         "5a" => d5::simple(),
         "5b" => d5::complex(),
+        "6a" => d6::simple(),
+        "6b" => d6::complex(),
         x => panic!("Unsolved problem {}!", x)
     }
 }
